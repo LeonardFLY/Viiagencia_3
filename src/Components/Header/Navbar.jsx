@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
     return (
         <React.Fragment>
-            <nav className="navbar navbar-dark bg fixed-top">
+            <nav className="navbar navbar-dark bg">
                 <div className="container-fluid">
                     <a className="navbar-brand">
                         <img src={logo} alt={logo} />
@@ -24,21 +24,35 @@ function Navbar() {
                                 ="navbar-nav justify-content-end flex-grow-1 pe-3">
                                 <li className
                                     ="nav-item">
-                                    <Link to="/" className
-                                        ="nav-link active">Home</Link>
+                                    <button>
+                                        <Link to="/" className
+                                            ="nav-link active">Home</Link>
+                                    </button>
                                 </li>
                                 <hr />
                                 <li className
                                     ="nav-item">
-                                    <Link to="/Promocoes" className
-                                        ="nav-link active">Promoções</Link>
+                                    <button>
+                                        <Link to="/Promocoes" className
+                                            ="nav-link active">Promoções</Link>
+                                    </button>
                                 </li>
                                 <hr />
                                 <li className
                                     ="nav-item">
-                                    <Link to="/Contact" className
-                                        ="nav-link active">
-                                        Contato</Link>
+                                    <button>
+                                        <Link to="/Contact" className
+                                            ="nav-link active">
+                                            Contato</Link>
+                                    </button>
+                                </li>
+                                <hr />
+                                <li className
+                                    ="nav-item">
+                                    <button><a className
+                                        ="nav-link active" href="https://www.linkedin.com/in/leonardoalvesm/">
+                                        Autor
+                                    </a></button>
                                 </li>
                                 <hr />
                             </ul>

@@ -1,5 +1,6 @@
 import { useForm } from 'react-hook-form';
 
+
 const ContactForm = () => {
   const {
     register,
@@ -17,7 +18,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className='ContactForm mt-5 mb-3'>
+    <div className='ContactForm py-3'>
       <div className='container'>
         <div className='row'>
           <div className='col-12 text-center'>
