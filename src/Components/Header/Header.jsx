@@ -1,7 +1,5 @@
 import React from 'react';
 import './Header.css';
-import img1 from '../../Images/img1.png';
-import Navbar from './Navbar'
 
 function Header() {
     return (
