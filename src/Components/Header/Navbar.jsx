@@ -8,10 +8,10 @@ function Navbar() {
         <React.Fragment>
             <nav className="navbar navbar-dark bg">
                 <div className="container-fluid">
-                    <a className="navbar-brand">
-                        <img src={logo} alt={logo} />
+                    <button className="navbar-brand teste">
+                        <img src={logo}  alt={logo} />
                         <i>VIIAGÊNCIA</i>
-                    </a>
+                    </button>
                     <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -49,10 +49,8 @@ function Navbar() {
                                 <hr />
                                 <li className
                                     ="nav-item">
-                                    <button><a className
-                                        ="nav-link active" href="https://www.linkedin.com/in/leonardoalvesm/">
-                                        Autor
-                                    </a></button>
+                                    <button ><Link to="https://www.linkedin.com/in/leonardoalvesm/" className
+                                        ="nav-link active">Autor</Link></button>
                                 </li>
                                 <hr />
                             </ul>

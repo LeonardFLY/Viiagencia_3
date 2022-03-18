@@ -38,7 +38,7 @@ Link{
     text-decoration: none;
 }
 
-li button, input[type="submit"], input[type="reset"] {
+li button, input[type="submit"], input[type="reset"], .teste {
 	background: none;
 	color: inherit;
 	border: none;
