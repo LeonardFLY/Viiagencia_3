@@ -8,7 +8,7 @@ function Navbar() {
         <React.Fragment>
             <nav className="navbar navbar-dark bg fixed-top">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">
+                    <a className="navbar-brand">
                         <img src={logo} alt={logo} />
                         <i>VIIAGÊNCIA</i>
                     </a>
