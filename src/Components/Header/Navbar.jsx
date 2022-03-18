@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
 import logo from '../../Images/logo.png';
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Navbar() {
     return (
@@ -27,35 +27,25 @@ function Navbar() {
                                     <Link to="/" className
                                         ="nav-link active">Home</Link>
                                 </li>
-                                <hr/>
+                                <hr />
                                 <li className
                                     ="nav-item">
                                     <Link to="/Promocoes" className
                                         ="nav-link active">Promoções</Link>
                                 </li>
-                                <hr/>
+                                <hr />
                                 <li className
                                     ="nav-item">
                                     <Link to="/Contact" className
                                         ="nav-link active">
                                         Contato</Link>
                                 </li>
-                                <hr/>
-                                <li className
-                                    ="nav-item">
-                                    <a className
-                                        ="nav-link active" href="https://www.linkedin.com/in/leonardoalvesm/">
-                                        Autor
-                                    </a>
-                                </li>
-                                <hr/>
-                                <hr/>
+                                <hr />
                             </ul>
                         </div>
                     </div>
                 </div>
             </nav>
-            <hr/>
         </React.Fragment>
     );
 
