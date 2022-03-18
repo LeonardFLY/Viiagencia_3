@@ -1,17 +1,17 @@
 import React from 'react';
 import './Header.css';
 import logo from '../../Images/logo.png';
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
-export default () => {
+function Navbar() {
     return (
         <React.Fragment>
-            <nav className="navbar navbar-dark bg fixed-top">
+            <nav className="navbar navbar-dark bg">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">
+                    <button className="navbar-brand">
                         <img src={logo} alt={logo} />
                         <i>VIIAGÊNCIA</i>
-                    </a>
+                    </button>
                     <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -24,39 +24,43 @@ export default () => {
                                 ="navbar-nav justify-content-end flex-grow-1 pe-3">
                                 <li className
                                     ="nav-item">
-                                    <Link to="/" className
-                                        ="nav-link active">Home</Link>
+                                    <button>
+                                        <Link to="/" className
+                                            ="nav-link active">Home</Link>
+                                    </button>
                                 </li>
-                                <hr/>
+                                <hr />
                                 <li className
                                     ="nav-item">
-                                    <Link to="/Promocoes" className
-                                        ="nav-link active">Promoções</Link>
+                                    <button>
+                                        <Link to="/Promocoes" className
+                                            ="nav-link active">Promoções</Link>
+                                    </button>
                                 </li>
-                                <hr/>
+                                <hr />
                                 <li className
                                     ="nav-item">
-                                    <Link to="/Contact" className
-                                        ="nav-link active">
-                                        Contato</Link>
+                                    <button>
+                                        <Link to="/Contact" className
+                                            ="nav-link active">
+                                            Contato</Link>
+                                    </button>
                                 </li>
-                                <hr/>
+                                <hr />
                                 <li className
                                     ="nav-item">
-                                    <a className
-                                        ="nav-link active" href="https://www.linkedin.com/in/leonardoalvesm/">
-                                        Autor
-                                    </a>
+                                    <button ><Link to="https://www.linkedin.com/in/leonardoalvesm/" className
+                                        ="nav-link active">Autor</Link></button>
                                 </li>
-                                <hr/>
-                                <hr/>
+                                <hr />
                             </ul>
                         </div>
                     </div>
                 </div>
             </nav>
-            <hr/>
         </React.Fragment>
     );
 
 }
+
+export default Navbar;
