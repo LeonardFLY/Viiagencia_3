@@ -8,8 +8,8 @@ function Navbar() {
         <React.Fragment>
             <nav className="navbar navbar-dark bg">
                 <div className="container-fluid">
-                    <button className="navbar-brand teste">
-                        <img src={logo}  alt={logo} />
+                    <button className="navbar-brand">
+                        <img src={logo} alt={logo} />
                         <i>VIIAGÊNCIA</i>
                     </button>
                     <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">

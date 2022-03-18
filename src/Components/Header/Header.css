@@ -38,7 +38,7 @@ Link{
     text-decoration: none;
 }
 
-li button, input[type="submit"], input[type="reset"], .teste {
+li button, input[type="submit"], input[type="reset"], .navbar-brand{
 	background: none;
 	color: inherit;
 	border: none;
@@ -46,4 +46,9 @@ li button, input[type="submit"], input[type="reset"], .teste {
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
+    font-size:22px;
+}
+
+.navbar-brand{
+    font-size:30px;
 }
