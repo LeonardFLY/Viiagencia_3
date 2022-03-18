@@ -4,7 +4,6 @@ const ContactForm = () => {
   const {
     register,
     handleSubmit,
-    reset,
     formState: { errors }
   } = useForm();
   
@@ -93,7 +92,7 @@ const ContactForm = () => {
                       className='form-control formInput'
                       placeholder='Mensagem'
                     ></textarea>
-                    {errors.message && <span className='errorMessage'>Insira aqui a sua mensagem</span>}
+                    {errors.message && <span className='errorMessage'>Insira a sua mensagem</span>}
                   </div>
                 </div>
                 <button className='submit-btn' type='submit'>

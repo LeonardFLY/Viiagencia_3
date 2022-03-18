@@ -3,7 +3,7 @@ import './Header.css';
 import logo from '../../Images/logo.png';
 import {Link} from "react-router-dom";
 
-export default () => {
+function Navbar() {
     return (
         <React.Fragment>
             <nav className="navbar navbar-dark bg fixed-top">
@@ -60,3 +60,5 @@ export default () => {
     );
 
 }
+
+export default Navbar;
