@@ -49,7 +49,7 @@ function Navbar() {
                                 <hr />
                                 <li className
                                     ="nav-item">
-                                    <button ><Link to="https://www.linkedin.com/in/leonardoalvesm/" className
+                                    <button ><Link to="/Author" className
                                         ="nav-link active">Autor</Link></button>
                                 </li>
                                 <hr />

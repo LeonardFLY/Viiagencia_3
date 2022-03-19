@@ -1,0 +1,27 @@
+.social {
+    border: solid thin #ced4da;
+    max-width: 60rem;
+    transition: all 0.7s;
+    display: block;
+    text-align: center;
+    margin:auto;
+}
+
+.img-thumbnail{
+    max-width:300px;
+}
+
+.icon {
+    width:55px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.icon:hover {
+    transform:scale(1.3, 1.3);
+    background-color:slateblue;
+}
+
+ul {
+    list-style-type: none;
+  }
