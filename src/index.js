@@ -6,6 +6,7 @@ import Contact from './Components/Contact/ContactUs'
 import Footer from './Components/Footer/Footer'
 import Navbar from './Components/Header/Navbar'
 import Promocoes from './Pages/Promocoes/Promocoes';
+import Author from './Pages/Author/Author';
 
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 
@@ -19,6 +20,7 @@ ReactDOM.render(
         <Route path="/" exact element={<Home></Home>}></Route>
         <Route path="/Promocoes" exact element={<Promocoes></Promocoes>}></Route>
         <Route path="/Contact" element={<Contact></Contact>}></Route>
+        <Route path="/Author" element={<Author></Author>}></Route>
       </Routes>
       <Footer></Footer>
     </Router>
